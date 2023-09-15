@@ -4,7 +4,8 @@
   "description": "Design dirigido à domínio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [],
   "author": "thiago da silva",
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@types/node": "^20.2.5",
     "typescript": "^5.1.3",
+    "vite-tsconfig-paths": "^4.2.1",
     "vitest": "^0.32.0"
   }
 }
