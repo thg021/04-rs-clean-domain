@@ -1,6 +1,6 @@
 import { expect, it, describe, beforeEach } from 'vitest'
 import { CreateAnswerUseCase } from './create-answer'
-import { InMemoryAnswersRepository } from 'test/repositories/in-memory-question-repository copy'
+import { InMemoryAnswersRepository } from 'test/repositories/in-memory-answers-repository'
 
 let inMemoryAnswersRepository: InMemoryAnswersRepository
 let sut: CreateAnswerUseCase
