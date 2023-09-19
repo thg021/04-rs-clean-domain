@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it, test } from 'vitest'
 import { CreateQuestionUseCase } from './create-question'
-import { InMemoryQuestionsRepository } from 'test/repositories/in-memory-question-repository'
+import { InMemoryQuestionsRepository } from 'test/repositories/in-memory-questions-repository'
 
 let inMemoryQuestionsRepository: InMemoryQuestionsRepository
 let sut: CreateQuestionUseCase
